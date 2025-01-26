@@ -1865,6 +1865,7 @@ function Sidebar:create_input_container(opts)
             { name = "avante_commands" },
             { name = "avante_mentions" },
             { name = "avante_files" },
+            unpack(Config.completion.cmp.input_container.sources or {}),
           },
         })
       end

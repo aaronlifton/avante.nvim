@@ -250,6 +250,13 @@ M._defaults = {
     debounce = 600,
     throttle = 600,
   },
+  completion = {
+    cmp = {
+      input_container = {
+        sources = {},
+      },
+    },
+  },
 }
 
 ---@type avante.Config
